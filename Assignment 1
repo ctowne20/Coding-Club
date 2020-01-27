@@ -1,0 +1,48 @@
+# Part 1: assign a variable to your name
+name = 'Carrieann'
+
+# Part 2: assign another string to the classname
+className = 'Coding Club (Python)'
+
+""" Part 3: Print the following in a multi-line print
+      Name: <nameVariable>
+      Date: 01/30/2020
+      Class: <ClassNameVariable>"""
+print('name: ' name \n'date: 01/30/2020'\n'class: ' class)
+
+# Part 4: Create a new list with the following numbers... 1, 5, 15, 20, 25, 6*6
+list1 = [1, 5, 15, 20, 25, 6*6]
+
+# Part 5: Print the list
+print('A new list is created:'\n)
+print(list1)
+
+# Part 6: Change the last item to show 6*5. Print the list again
+list1[5] = 6*5
+print(list1)
+
+# Part 7: Delete the first element from the list. Print the list again
+del list1[0]
+print(list1)
+
+# Part 8: Print the length of the list
+len(list1)
+
+""" Part 9:
+        create set1 from a list. Create set2 with brackets."""
+list2 = ['y', 'y', 'd', 'd', 'd', 'd', 'e', 's', 'p', 'g', 'e']
+set1 = set(list2)
+set2 = {'g', 'h', 'h', 'd', 'd', 'e', 'e', 'p', 'p', 'm', 'n'}
+
+# Part 10: print letters that are displayed in both lists
+print(set1 & set2)
+
+# Part 11: create a dictionary for the first three months
+year = {1: 'January', 2: 'February', 3: 'March'}
+
+# Part 12: Print the second month
+year[2]
+
+# Part 13
+year[4] = 'April'
+year[4]
