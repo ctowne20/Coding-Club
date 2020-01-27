@@ -1,14 +1,16 @@
 # Part 1: assign a variable to your name
-name = 'Carrieann'
+myName = 'Carrieann'
 
 # Part 2: assign another string to the classname
 className = 'Coding Club (Python)'
+theDate = '01/27/2020'
 
 """ Part 3: Print the following in a multi-line print
       Name: <nameVariable>
       Date: 01/30/2020
       Class: <ClassNameVariable>"""
-print('name: ' name \n'date: 01/30/2020'\n'class: ' class)
+
+print(F"""Name: {myName}\nDate: {theDate}\nClass: {className}""")
 
 # Part 4: Create a new list with the following numbers... 1, 5, 15, 20, 25, 6*6
 list1 = [1, 5, 15, 20, 25, 6*6]
